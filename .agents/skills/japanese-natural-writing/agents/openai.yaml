@@ -1,0 +1,4 @@
+interface:
+  display_name: "日本語の自然化・意味とトーンの照合"
+  short_description: "Geminiが自由に改稿し、Codexのレビュー後に意味のずれを修復"
+  default_prompt: "$japanese-natural-writing を使い、まずGeminiに自由に書き直させ、原文との意味のずれをレビューして修正してください。"
