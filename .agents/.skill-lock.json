@@ -6,9 +6,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/nanaism/yomiyasu.git",
       "skillPath": "SKILL.md",
-      "skillFolderHash": "30ee6041c328ce21d38a7963f667e079a93d7a12",
+      "skillFolderHash": "1890e67c497bf3b13df853719d7ca9af4ea37710",
       "installedAt": "2026-09-30T23:32:31.198Z",
-      "updatedAt": "2026-09-30T23:32:31.198Z"
+      "updatedAt": "2026-10-03T19:57:28.748Z"
     },
     "find-skills": {
       "source": "vercel-labs/skills",

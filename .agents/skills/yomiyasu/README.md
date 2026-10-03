@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/yomiyasu_logo.jpeg" alt="yomiyasu logo" width="700">
+</p>
+
 # yomiyasu（よみやす）
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
@@ -6,6 +10,8 @@
 ## これは何？
 
 『yomiyasu（よみやす）』は、AIが生成した日本語の不自然さを解消し、人間が読みやすく情報密度の高い日本語へ推敲するためのスキルです。
+
+主に技術記事、設計書・仕様書、PR説明文、社内レポートなどの実務的な文章を対象として設計されています。
 
 Codex、Claude Code、CursorをはじめとするAIコーディング環境に読み込ませて使用してください。
 
@@ -134,10 +140,14 @@ AIによる文章生成は日常的な道具となりました。一方で、生
 ### 1. `npx skills add`（推奨）
 
 ```bash
+# 新規インストール
 npx skills add nanaism/yomiyasu
+
+# 最新版へのアップデート
+npx skills update yomiyasu
 ```
 
-Claude Codeなどのエージェント設定ディレクトリへインストールします。
+Claude Codeなどのエージェント設定ディレクトリへインストール・更新します（すでに導入済みの場合は `npx skills update yomiyasu` で最新版へ更新できます）。
 
 ### 2. `npx openskills install`（Cursor / Codexなど）
 
@@ -214,7 +224,7 @@ AIっぽさ 検査レポート (スコア: 100/100)
 ・太字頻度: 1,000字あたり 1.4 個 (推奨: 2.0以下 / 警告: 3.0超)
 ・箇条書き比率: 8.2% (推奨: 15%以下 / 警告: 25%超)
 ------------------------------------------------------------
-[PASS] AIっぽさは検出されませんでした。設定された検査ルールによる指摘はありません。
+[PASS] 設定された検査ルールによる指摘はありません。
 ```
 
 ---
