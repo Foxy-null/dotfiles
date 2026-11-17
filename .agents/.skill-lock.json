@@ -18,6 +18,15 @@
       "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
       "installedAt": "2026-09-30T23:32:36.820Z",
       "updatedAt": "2026-09-30T23:32:36.820Z"
+    },
+    "nihongo": {
+      "source": "AnIT012/nihongo",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/AnIT012/nihongo.git",
+      "skillPath": "nihongo/SKILL.md",
+      "skillFolderHash": "97deb9b6e8437850024e964f57438561745bfdf5",
+      "installedAt": "2026-11-17T13:53:50.000Z",
+      "updatedAt": "2026-11-17T13:53:50.000Z"
     }
   },
   "dismissed": {
